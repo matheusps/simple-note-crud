@@ -1,0 +1,25 @@
+{
+  "name": "Note Simple CRUD",
+  "version": "1.0.0",
+  "description": "Simple notes CRUD with no verifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"mongod\" \"node server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "Matheus P. Silva",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
