@@ -1,5 +1,5 @@
 {
-  "name": "Note Simple CRUD",
+  "name": "simple-note-crud",
   "version": "1.0.0",
   "description": "Simple notes CRUD with no verifications",
   "main": "server.js",
